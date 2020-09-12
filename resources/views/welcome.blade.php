@@ -6,7 +6,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Bintang Tobing" />
     <meta name="description" content="@yield('deschomepage')">
-    <meta name="keywords" content="putrakaryalogamsukses.com, putrakaryalogam, logam sukses, logamsukses, ship proper">
+    <meta name="keywords" content="belanjasemua, belanja semua,">
     <link rel="shortcut icon" href="{!!asset('auth/images/favicon.ico')!!}" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -16,14 +16,14 @@
     <!-- Stylesheets
 	============================================= -->
     <link
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700&display=swap"
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
         rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('homepage/construction/construction.css')!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('homepage/construction/css/fonts.css')!!}" type="text/css" />
+
+    <link rel="stylesheet" href="{!!asset('homepage/belanjasemua/travel.css')!!}" type="text/css" />
+    <link rel="stylesheet" href="{!!asset('homepage/css/components/datepicker.css')!!}" type="text/css" />
 
     <link rel="stylesheet" href="{!!asset('homepage/css/bootstrap.css')!!}" type="text/css" />
     <link rel="stylesheet" href="{!!asset('homepage/style.css')!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('homepage/css/swiper.css')!!}" type="text/css" />
 
     <link rel="stylesheet" href="{!!asset('homepage/css/dark.css')!!}" type="text/css" />
     <link rel="stylesheet" href="{!!asset('homepage/css/font-icons.css')!!}" type="text/css" />
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{!!asset('homepage/css/magnific-popup.css')!!}" type="text/css" />
 
     <link rel="stylesheet" href="{!!asset('homepage/css/custom.css')!!}" type="text/css" />
-    <link rel="stylesheet" href="{!!asset('homepage/css/colors.php?color=269097')!!}" type="text/css" />
+    <link rel="stylesheet" href="{!!asset('homepage/css/colors.php?color=1d6ec1')!!}" type="text/css" />
 
 
     <script type="application/ld+json">
