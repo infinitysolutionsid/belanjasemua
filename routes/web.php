@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Redirect;
 
 // Route::get('/', 'HomepageController@index');
 Route::get('/', function () {
-    return view('homepage.index');
+    // return view('homepage.index');
+    return view('welcome');
 });
 Route::get('/blog/{judul}', 'HomepageController@blogview');
 Route::get('/projects', 'HomepageController@projectsview');
