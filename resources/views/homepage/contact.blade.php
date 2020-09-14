@@ -1,19 +1,9 @@
 @extends('welcome')
-@section('titlepage','Musim Panen - Contact Us')
+@section('titlepage','Hubungi Kami | belanjasemua.com')
 <?php $y = Date('Y'); ?>
 @section('deschomepage','Ayo konsultusi untuk upvc di rumah idaman kamu. Jangan ragu. Konsultasi sekarang juga, hubungi
 musimpanen.co.id.')
 @section('content')
-<section id="page-title">
-    <div class="container clearfix">
-        <h1>Contact Us</h1>
-        <span>How you can contact us?</span>
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-        </ol>
-    </div>
-</section>
 <section id="content">
     <div class="content-wrap">
         <div class="container clearfix">
@@ -24,7 +14,7 @@ musimpanen.co.id.')
                 <div class="col-lg-6">
 
                     <div class="fancy-title title-border">
-                        <h3>Send us an Email</h3>
+                        <h3>Kirim Kami Pesan</h3>
                     </div>
 
                     <div class="form-widget">
@@ -75,7 +65,7 @@ musimpanen.co.id.')
 
                                 <div class="col-12 form-group">
                                     <button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit"
-                                        class="button button-3d m-0">Submit Comment</button>
+                                        class="button button-3d m-0">Kirim Pesan</button>
                                 </div>
                             </div>
                             <input type="hidden" name="prefix" value="template-contactform-">
@@ -88,49 +78,16 @@ musimpanen.co.id.')
                     </div>
                 </div>
             </div>
-            <div class="row col-mb-50">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box fbox-center fbox-bg fbox-plain">
-                        <div class="fbox-icon">
-                            <a href="#"><i class="icon-map-marker2"></i></a>
+            <div class="row mb-5">
+                <div class="col-sm-12 col-lg-12">
+                    <a href="https://wa.me/6282370809595"
+                        class="button button-3d border-bottom-0 button-full center text-right bottommargin-md font-weight-light font-primary"
+                        style="font-size: 2rem;">
+                        <div class="container clearfix">
+                            Mau menghubungi kami secara langsung? <strong>Hubungi kami disini</strong> <i
+                                class="icon-angle-right"></i>
                         </div>
-                        <div class="fbox-content">
-                            <h3>Our Office<span class="subtitle">Medan, Indonesia</span></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box fbox-center fbox-bg fbox-plain">
-                        <div class="fbox-icon">
-                            <a href="#"><i class="icon-phone3"></i></a>
-                        </div>
-                        <div class="fbox-content">
-                            <h3>Speak to Us<span class="subtitle">(123) 456 7890</span></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box fbox-center fbox-bg fbox-plain">
-                        <div class="fbox-icon">
-                            <a href="#"><i class="icon-email"></i></a>
-                        </div>
-                        <div class="fbox-content">
-                            <h3>Email us<span class="subtitle">info@musimpanen.co.id</span></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-3">
-                    <div class="feature-box fbox-center fbox-bg fbox-plain">
-                        <div class="fbox-icon">
-                            <a href="#"><i class="icon-twitter2"></i></a>
-                        </div>
-                        <div class="fbox-content">
-                            <h3>Follow on Twitter<span class="subtitle">2.3M Followers</span></h3>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div><!-- Contact Info End -->
 

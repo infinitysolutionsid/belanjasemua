@@ -1,3 +1,99 @@
+.content-wrap {
+    padding-bottom: 0 !important;
+}
+
 #logo img {
-    height: 70px !important;
+    padding-top: 0 !important;
+}
+
+#logo img {
+    height: 80px !important;
+}
+
+.border-bottom-0 h4 {
+    margin-top: 8px;
+}
+
+#content {
+    margin: 0 0 !important;
+}
+
+.section {
+    padding-bottom: 0 !important;
+}
+
+.imgfoot {
+    width: 250px;
+}
+
+#footer .footer-widgets-wrap {
+    padding: 40px 0;
+
+}
+
+.menufoot ul {
+    list-style-type: none;
+}
+
+.menufoot li {
+    display: inline;
+    padding: 0px 0px 0px 40px;
+}
+
+#page-title h1 {
+    letter-spacing: 0;
+
+}
+
+#page-title h1 {
+    text-transform: lowercase;
+    line-height: 2.58rem;
+}
+
+#page-title h4 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.counter {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: lowercase;
+}
+
+.ekspedisi {
+    background-image: url('../images/home/plane.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 150px;
+}
+
+.topmargin-sm h2 {
+    color: #1d6ec1;
+    text-transform: lowercase;
+}
+
+.topmargin-sm span {
+    color: #333 !important;
+    text-transform: none;
+}
+
+.heading-block::after {
+    border-top: 0 !important;
+}
+
+.heading-block {
+    margin: 100px 0;
+}
+
+.button {
+    text-transform: lowercase;
+    letter-spacing: 0 !important;
+}
+
+.faqscurrent h4 {
+    color: #1d6ec1 !important;
 }

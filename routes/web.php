@@ -16,24 +16,22 @@ use Illuminate\Support\Facades\Redirect;
 
 // Route::get('/', 'HomepageController@index');
 Route::get('/', function () {
-    // return view('homepage.index');
-    return view('welcome');
+    return view('homepage.index');
+    // return view('welcome');
 });
-Route::get('/blog/{judul}', 'HomepageController@blogview');
-Route::get('/projects', 'HomepageController@projectsview');
 Route::post('/kirim-pesan', 'DashboardController@kirimpesan');
-Route::get('/contact-us', function () {
+Route::get('/hubungi-kami', function () {
     return view('homepage.contact');
 });
 Route::get('/pesan', function () {
     return view('receivedemails');
 });
-Route::get('/about-us', function () {
+Route::get('/tentang-kami', function () {
     return view('homepage.aboutus');
 });
-Route::get('/gallery', 'HomepageController@galleryview');
-Route::get('/demonstration', 'HomepageController@videoview');
-Route::get('/blog', 'HomepageController@blog');
+Route::get('/faqs', function () {
+    return view('homepage.faqs');
+});
 Route::get('/dash', function () {
     return view('dashboard');
 });
