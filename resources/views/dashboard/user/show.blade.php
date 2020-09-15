@@ -1,6 +1,6 @@
 @extends('dashboards')
 @section('titledash','User Managements')
-@section('activeblog','active')
+@section('activeuser','active')
 @section('contents')
 <div class="container-fluid">
     @if(session('selamat'))

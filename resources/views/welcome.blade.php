@@ -77,7 +77,6 @@
 </head>
 
 <body class="stretched">
-
     <div id="wrapper" class="clearfix">
         <!-- Header
 		============================================= -->

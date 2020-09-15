@@ -46,7 +46,7 @@
         <div class="nano">
             <div class="nano-content">
                 <div class="logo"><a href="/admin/dashboard">
-                        <span>MUSIMPANEN
+                        <span>BELANJASEMUA
                             SYS</span></a></div>
                 <ul>
                     <li class="label">Main</li>
@@ -67,16 +67,17 @@
                     </li>
                     @endif
                     <li class="label">Store Needs</li>
-                    <li class="@yield('activeblog')"><a href="/admin/blog"><i class="ti-folder"></i> Project Blog </a>
+                    <li class="@yield('activeorder')"><a href="/admin/customerorder"><i class="ti-folder"></i> Customer
+                            Order </a>
                     </li>
-                    <li class="@yield('activeproducts')"><a href="/admin/products"><i class="ti-bag"></i> Products </a>
+                    {{-- <li class="@yield('activeproducts')"><a href="/admin/products"><i class="ti-bag"></i> Products </a>
                     </li>
                     <li class="@yield('activegallery')"><a href="/admin/gallery"><i class="ti-gallery"></i> Gallery </a>
                     </li>
                     <li class="@yield('activevideos')"><a href="/admin/video"><i class="ti-gallery"></i> Videos </a>
                     </li>
                     <li class="@yield('activepartner')"><a href="/admin/partner"><i class="ti-link"></i> Partner </a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

@@ -442,6 +442,7 @@ class ComposerStaticInit897b9cc9a22c06d5313ade0928e2ae49
         'App\\gallerydb' => __DIR__ . '/../..' . '/app/gallerydb.php',
         'App\\itemproduk' => __DIR__ . '/../..' . '/app/itemproduk.php',
         'App\\kategori' => __DIR__ . '/../..' . '/app/kategori.php',
+        'App\\order' => __DIR__ . '/../..' . '/app/order.php',
         'App\\partner' => __DIR__ . '/../..' . '/app/partner.php',
         'App\\productsdb' => __DIR__ . '/../..' . '/app/productsdb.php',
         'App\\video' => __DIR__ . '/../..' . '/app/video.php',

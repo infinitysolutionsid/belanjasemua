@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\blogdb;
 use App\gallerydb;
+use App\Mail\AddOrder;
 use App\video;
+use App\order;
 use Illuminate\Support\Facades\DB;
 
 class HomepageController extends Controller
@@ -59,5 +61,25 @@ class HomepageController extends Controller
     public function blog()
     {
         return view('homepage.blog');
+    }
+    public function addorder(Request $request)
+    {
+        $order = new order();
+        $order->produk = $request->produk;
+        $order->kisaran_harga = $request->kisaran_harga;
+        $order->catatan = $request->catatan;
+        $order->nama_lengkap = $request->nama_lengkap;
+        $order->email = $request->email;
+        $order->nohp = $request->nohp;
+        $order->tipe_pengiriman = $request->tipe_pengiriman;
+        $order->save();
+        // dd($order);
+        // \Mail::raw('Hallo Tim Belanjasemua.com, permintaan rincian biaya order ' . $order->nama_lengkap, function ($message) {
+        //     $message->to('handoko@infinitysolutions.co.id', 'Handoko Wu');
+        //     $message->subject('Order berhasil dibuat sob!');
+        // });
+
+        \Mail::to('handoko@infinitysolutions.co.id')->send(new AddOrder($order));
+        return back()->with('selamat', 'Pesanan kamu berhasil dikirim ke tim Belanjasemua.com. Tunggu respon dari email kami ya. :)');
     }
 }

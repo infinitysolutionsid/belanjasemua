@@ -20,6 +20,12 @@ Route::get('/', function () {
     // return view('welcome');
 });
 Route::post('/kirim-pesan', 'DashboardController@kirimpesan');
+// Route::get('/kirim-pesan', function () {
+//     \Mail::raw('Halo pesan testing dari belanjasemua.com', function ($message) {
+//         $message->to('handoko@infinitysolutions.co.id', 'Handoko');
+//         $message->subject('Order masuk belanjasemua.com');
+//     });
+// });
 Route::get('/hubungi-kami', function () {
     return view('homepage.contact');
 });
@@ -44,6 +50,7 @@ Route::get('logout', function () {
     return redirect('/admin/dashboard');
 });
 
+Route::post('/proses/belanja', 'HomepageController@addorder');
 // Katalog katalog or PRODUK
 
 
@@ -54,7 +61,7 @@ Route::prefix('product/details')->group(function () {
 
 Route::group(['prefix' => 'admin', 'middleware' => 'isLogin'], function () {
     Route::get('/dashboard', 'DashboardController@index');
-    Route::get('/blog', 'DashboardController@showblog');
+    Route::get('/customerorder', 'DashboardController@showorder');
     Route::get('/user', 'DashboardController@showuser');
     Route::get('/gallery', 'DashboardController@showgallery');
     Route::get('/products', 'DashboardController@showproducts');
@@ -76,8 +83,8 @@ Route::group(['prefix' => 'admin/products', 'middleware' => 'isLogin'], function
     Route::get('/trash/{id}', 'DashboardController@trashproduct');
     Route::post('/update/{id}', 'DashboardController@updateproduct');
 });
-Route::group(['prefix' => 'admin/blog', 'middleware' => 'isLogin'], function () {
-    Route::post('/addnewblog', 'DashboardController@prosesaddblog');
+Route::group(['prefix' => 'admin/customerorder', 'middleware' => 'isLogin'], function () {
+    Route::post('/addneworder', 'DashboardController@prosesaddorder');
     Route::get('/trash/{id}', 'DashboardController@trashblog');
     Route::post('/update/{id}', 'DashboardController@updateblog');
 });

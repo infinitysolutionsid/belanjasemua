@@ -13,7 +13,7 @@
     left: 0;
     bottom: 0;
     width: 250px;
-    background: #143e13;
+    background: #f6f6f6;
     /* font-size: 14px; */
     z-index: 100;
     overflow: auto;
@@ -56,14 +56,14 @@
     font-size: 14px;
     /* height: 30px; */
     line-height: 40px;
-    color: rgba(160, 180, 200, 0.55);
+    color: rgba(0, 0, 0, 0.55);
     text-transform: capitalize;
     font-weight: normal;
 }
 
 .sidebar .nano-content>ul li.content {
     padding: 10px;
-    color: #D8D8D8;
+    color: #000;
 }
 
 .sidebar .nano-content>ul li.content .progress {
@@ -82,7 +82,7 @@
 .sidebar .nano-content>ul li>a {
     display: block;
     cursor: pointer;
-    color: #BDBDC7;
+    color: #424246;
     padding: 10px;
     line-height: 30px;
     border-bottom: none;
@@ -93,7 +93,7 @@
 }
 
 .sidebar .nano-content>ul li>a:hover {
-    background: linear-gradient(to right, #b3b57d, #143e13);
+    background: linear-gradient(to right, #414141, #f6f6f6);
 }
 
 .sidebar .nano-content>ul li>a>.sidebar-collapse-icon {
@@ -153,7 +153,7 @@ html.rtl .sidebar .nano-content>ul>li>a {
 .sidebar .nano-content>ul>li.active>a,
 .sidebar .nano-content>ul>li.open>a,
 .sidebar .nano-content>ul>li>ul {
-    background: linear-gradient(to right, #6a6d26, #143e13);
+    background: linear-gradient(to right, #2f8be8, #f6f6f6);
 }
 
 .sidebar .nano-content>ul>li>ul>li.label,

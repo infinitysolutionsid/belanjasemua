@@ -39,25 +39,34 @@
                                     style="margin-top: 0 !important;">
                                     <h4>Mau belanja apa nih sob?</h4>
                                 </div>
-                                <form action="#" method="post" class="mb-0">
+                                @if(session('selamat'))
+                                <div class="style-msg successmsg">
+                                    <div class="sb-msg"><i class="icon-thumbs-up"></i><strong>Well done!</strong>
+                                        {{session('selamat')}}</div>
+                                    <button type="button" class="close" data-dismiss="alert"
+                                        aria-hidden="true">&times;</button>
+                                </div>
+                                @endif
+                                <form action="/proses/belanja" method="post" class="mb-0">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-md-6 col-12 bottommargin-sm">
                                             <label>Pesanan</label>
-                                            <input type="text" name="produk_name" value="" class="sm-form-control my-2"
+                                            <input type="text" name="produk" value="" class="sm-form-control my-2"
                                                 placeholder="Produk atau URL Produk" required>
-                                            <input type="text" name="harga_kisaran" value=""
+                                            <input type="text" name="kisaran_harga" value=""
                                                 class="sm-form-control my-2" placeholder="Kisaran harga per unit"
                                                 required>
-                                            <input type="text" name="notes" value="" class="sm-form-control my-2"
+                                            <input type="text" name="catatan" value="" class="sm-form-control my-2"
                                                 placeholder="Catatan (warna, ukuran, tipe)" required>
                                         </div>
                                         <div class="col-md-6 col-12 bottommargin-sm">
                                             <label>Informasi Data Pribadi</label>
-                                            <input type="text" name="contact_name" value="" class="sm-form-control my-2"
+                                            <input type="text" name="nama_lengkap" value="" class="sm-form-control my-2"
                                                 placeholder="Nama Lengkap" required>
-                                            <input type="email" name="Email" value="" class="sm-form-control my-2"
+                                            <input type="email" name="email" value="" class="sm-form-control my-2"
                                                 placeholder="Email" required>
-                                            <input type="tel" name="notes" value="" class="sm-form-control my-2"
+                                            <input type="tel" name="nohp" value="" class="sm-form-control my-2"
                                                 placeholder="Nomor HP" required>
                                         </div>
                                         <div class="input-daterange travel-date-group col-md-9 bottommargin-sm">
@@ -65,13 +74,13 @@
                                                 <div class="col-md-12 col-6">
                                                     <label>Durasi Pengiriman</label>
                                                     <div>
-                                                        <input id="radio-4" class="radio-style" name="durasi_pengiriman"
-                                                            type="radio" checked>
+                                                        <input id="radio-4" class="radio-style" name="tipe_pengiriman"
+                                                            value="1" type="radio" checked>
                                                         <label for="radio-4" class="radio-style-1-label">Express</label>
                                                     </div>
                                                     <div>
-                                                        <input id="radio-5" class="radio-style" name="durasi_pengiriman"
-                                                            type="radio">
+                                                        <input id="radio-5" class="radio-style" name="tipe_pengiriman"
+                                                            value="2" type="radio">
                                                         <label for="radio-5" class="radio-style-1-label">Regular</label>
                                                     </div>
                                                 </div>

@@ -100,17 +100,13 @@ class DashboardController extends Controller
     // End User section
 
     // BLOG SECTION
-    public function showblog()
+    public function showorder()
     {
-        $product = DB::table('productsdbs')
-            ->orderBy('productsdbs.product_name', 'ASC')
-            ->select('productsdbs.*')
+        $order = DB::table('orders')
+            ->orderby('orders.created_at', 'DESC')
+            ->select('orders.*')
             ->get();
-        $blog = DB::table('blogdbs')
-            ->orderby('blogdbs.created_at', 'DESC')
-            ->select('blogdbs.*')
-            ->get();
-        return view('dashboard.blog.show', ['product' => $product, 'blog' => $blog]);
+        return view('dashboard.order.show', ['order' => $order]);
     }
     public function prosesaddblog(Request $request)
     {

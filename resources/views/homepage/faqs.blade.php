@@ -83,101 +83,68 @@
                                         href="https://wa.me/6282370809595">+6282370809595</a></li>
                             </ul>
                         </div>
-
                         <div class="accordion-header">
                             <div class="accordion-icon">
                                 <i class="accordion-closed icon-ok-circle"></i>
                                 <i class="accordion-open icon-remove-circle"></i>
                             </div>
                             <div class="accordion-title">
-                                An Introduction to the Marketplaces for Authors
+                                Bagaimana jika saya malas mengisi form?
                             </div>
                         </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos
-                            doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit veniam odio
-                            voluptatum. Enim at asperiores quod velit minima officia accusamus cumque eligendi
-                            consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a
-                            repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</div>
-
+                        <div class="accordion-content">
+                            Hubungi tim kami melalui whatsapp <a href="https://wa.me/6282370809595">+6282370809595</a>
+                        </div>
                         <div class="accordion-header">
                             <div class="accordion-icon">
                                 <i class="accordion-closed icon-ok-circle"></i>
                                 <i class="accordion-open icon-remove-circle"></i>
                             </div>
                             <div class="accordion-title">
-                                How do I pay for items on the Marketplaces?
+                                Apakah bisa membatalkan pesanan atau mengubah pesanan?
                             </div>
                         </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt, delectus laboriosam nisi
-                            repudiandae nam fuga saepe animi recusandae. Asperiores, provident, esse, doloremque,
-                            adipisci eaque alias dolore molestias assumenda quasi saepe nisi ab illo ex nesciunt nobis
-                            laboriosam iusto quia nulla ad voluptatibus iste beatae voluptas corrupti facilis accusamus
-                            recusandae sequi debitis reprehenderit quibusdam. Facilis eligendi a exercitationem nisi et
-                            placeat excepturi velit!</div>
-
+                        <div class="accordion-content">
+                            perubahan dan pembatalan pesanan dapat dilakukan oleh pihak belanjasemua.com apabila pihak
+                            belanjasemua.com belum bayar atau
+                            barang yang dipesan tidak tersedia. Apabila ada kesalahan pesanan akibat kelalaian pihak
+                            belanjasemua.com maka
+                            tidak bisa dibatalkan.
+                            <br><br>
+                            contoh:
+                            pesanan awal: Beli Iphone 11 Pro 64GB, setelah sampai ke pihak belanjasemua.com trus pihak
+                            pembeli berubah pikiran mau
+                            yang IPhone 11 Pro Max 64GB. Nah, yang kasus seperti ini tidak bisa dibatalkan ya pihak
+                            belanjasemua.com.
+                        </div>
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Bagaimana jika barang yang dipesan tidak tersedia?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            pesanan akan dibatalkan dan uang akan dikembalikan (refund)
+                        </div>
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Bagaimana jika ingin melakukan pemesanan dalam jumlah besar?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            langsung aja hubungi pihak Tim belanjasemua di whatsapp atau melalui email
+                            hallo@belanjasemua.com
+                        </div>
                     </div>
 
-                </div>
-
-                <div class="col-md-6">
-
-                    <h4>Item Discussion <small>(9)</small></h4>
-
-                    <div class="accordion accordion-border clearfix" data-state="closed">
-
-                        <div class="accordion-header">
-                            <div class="accordion-icon">
-                                <i class="accordion-closed icon-ok-circle"></i>
-                                <i class="accordion-open icon-remove-circle"></i>
-                            </div>
-                            <div class="accordion-title">
-                                What Images, Videos, Code Can I Use in my Items?
-                            </div>
-                        </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum
-                            voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque
-                            explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
-                            unde quas beatae vero vitae nulla.</div>
-
-                        <div class="accordion-header">
-                            <div class="accordion-icon">
-                                <i class="accordion-closed icon-ok-circle"></i>
-                                <i class="accordion-open icon-remove-circle"></i>
-                            </div>
-                            <div class="accordion-title">
-                                Can I use trademarked names in my items?
-                            </div>
-                        </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos
-                            doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit veniam odio
-                            voluptatum. Enim at asperiores quod velit minima officia accusamus cumque eligendi
-                            consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a
-                            repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</div>
-
-                        <div class="accordion-header">
-                            <div class="accordion-icon">
-                                <i class="accordion-closed icon-ok-circle"></i>
-                                <i class="accordion-open icon-remove-circle"></i>
-                            </div>
-                            <div class="accordion-title">
-                                How can I get support for an item?
-                            </div>
-                        </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt, delectus laboriosam nisi
-                            repudiandae nam fuga saepe animi recusandae. Asperiores, provident, esse, doloremque,
-                            adipisci eaque alias dolore molestias assumenda quasi saepe nisi ab illo ex nesciunt nobis
-                            laboriosam iusto quia nulla ad voluptatibus iste beatae voluptas corrupti facilis accusamus
-                            recusandae sequi debitis reprehenderit quibusdam. Facilis eligendi a exercitationem nisi et
-                            placeat excepturi velit!</div>
-
-                    </div>
-
-                    <h4 class="topmargin">Affiliates <small>(3)</small></h4>
+                    <h4 class="topmargin">Pembayaran <small>(2)</small></h4>
 
                     <div class="accordion accordion-border mb-0 clearfix" data-state="closed">
 
@@ -187,14 +154,34 @@
                                 <i class="accordion-open icon-remove-circle"></i>
                             </div>
                             <div class="accordion-title">
-                                How does the Tuts+ Premium affiliate program work?
+                                Bagaimana melakukan pembayaran di belanjasemua.com
                             </div>
                         </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum
-                            voluptates doloribus quae nisi tempore necessitatibus dolores ducimus enim libero eaque
-                            explicabo suscipit animi at quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam
-                            unde quas beatae vero vitae nulla.</div>
+                        <div class="accordion-content">
+                            Bisa dengan transfer bank, kartu kredit, paypal, dan pembayaran elektronik seperti OVO dan
+                            Dana.
+                        </div>
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Apa saja komponen biaya yang ada di belanjasemua.com?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Biaya pengiriman, biaya jasa, biaya asuransi, biaya pajak bea masuk apabila pembelian
+                            dilakukan di luar negara.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <h4>Pengiriman <small>(3)</small></h4>
+
+                    <div class="accordion accordion-border clearfix" data-state="closed">
 
                         <div class="accordion-header">
                             <div class="accordion-icon">
@@ -202,16 +189,84 @@
                                 <i class="accordion-open icon-remove-circle"></i>
                             </div>
                             <div class="accordion-title">
-                                Tips for Increasing Your Referral Income
+                                Berapa biaya pengiriman ke alamat masing-masing?
                             </div>
                         </div>
-                        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos
-                            doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit veniam odio
-                            voluptatum. Enim at asperiores quod velit minima officia accusamus cumque eligendi
-                            consequuntur fuga? Maiores, quasi, voluptates, exercitationem fuga voluptatibus a
-                            repudiandae expedita omnis molestiae alias repellat perferendis dolores dolor.</div>
+                        <div class="accordion-content">
+                            belanjasemua.com memberikan biaya pengiriman yang asli & transparan, dan biaya tersebut
+                            ditanggung oleh pembeli.
+                        </div>
 
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Apakah barang yang dikirim mendapatkan jaminan?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Benar, semua barang yang dikirim akan mendapatkan perlindungan asuransi.
+                        </div>
+
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Bagaimana saya melacak pengiriman pesanan saya?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Kami akan mengirimkan kode tracking berdasarkan jasa logistik yang dapat di lacak di website
+                            logistik tersebut.
+                        </div>
+
+                    </div>
+
+                    <h4 class="topmargin">Kerusakan / Kehilangan <small>(3)</small></h4>
+
+                    <div class="accordion accordion-border mb-0 clearfix" data-state="closed">
+
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Bagaimana jika barang hilang/rusak?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Semua pengiriman dilindungi oleh asuransi terbaik yang akan memproses klaim asuransi
+                            kehilangan atau kerusakan.
+                        </div>
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Berapa lama proses klaim asuransi?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Proses klaim asuransi tergantung dari kasus dan proses dari pihak penyedia asuransi.
+                        </div>
+                        <div class="accordion-header">
+                            <div class="accordion-icon">
+                                <i class="accordion-closed icon-ok-circle"></i>
+                                <i class="accordion-open icon-remove-circle"></i>
+                            </div>
+                            <div class="accordion-title">
+                                Siapa yang akan melakukan proses klaim?
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            Proses klaim akan sepenuhnya ditangani oleh belanjasemua.com
+                        </div>
                     </div>
 
                 </div>

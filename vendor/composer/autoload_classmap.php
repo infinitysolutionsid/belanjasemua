@@ -38,6 +38,7 @@ return array(
     'App\\gallerydb' => $baseDir . '/app/gallerydb.php',
     'App\\itemproduk' => $baseDir . '/app/itemproduk.php',
     'App\\kategori' => $baseDir . '/app/kategori.php',
+    'App\\order' => $baseDir . '/app/order.php',
     'App\\partner' => $baseDir . '/app/partner.php',
     'App\\productsdb' => $baseDir . '/app/productsdb.php',
     'App\\video' => $baseDir . '/app/video.php',
