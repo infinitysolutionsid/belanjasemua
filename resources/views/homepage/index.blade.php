@@ -3,8 +3,7 @@
 <?php $y = Date('Y'); ?>
 @section('deschomepage','')
 @section('content')
-<section id="slider"
-    class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header include-topbar">
+<section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header include-topbar">
     <div class="slider-inner">
 
         <div class="fslider h-100 position-absolute" data-speed="3000" data-pause="7500" data-animation="fade"
@@ -48,17 +47,18 @@
                                 </div>
                                 @endif
                                 <form action="/proses/belanja" method="post" class="mb-0">
-                                    @csrf
+                                    {{ csrf_field() }}
                                     <div class="row">
                                         <div class="col-md-6 col-12 bottommargin-sm">
                                             <label>Pesanan</label>
                                             <input type="text" name="produk" value="" class="sm-form-control my-2"
                                                 placeholder="Produk atau URL Produk" required>
-                                            <input type="text" name="kisaran_harga" value=""
-                                                class="sm-form-control my-2" placeholder="Kisaran harga per unit"
+                                            <input type="text" id="rupiah" name="kisaran_harga" value=""
+                                                class="sm-form-control my-2" placeholder="Kisaran harga barang"
                                                 required>
-                                            <input type="text" name="catatan" value="" class="sm-form-control my-2"
-                                                placeholder="Catatan (warna, ukuran, tipe)" required>
+                                            <input type="text" id="catatan" name="catatan" value=""
+                                                class="sm-form-control my-2"
+                                                placeholder="Catatan (warna, ukuran, tipe)">
                                         </div>
                                         <div class="col-md-6 col-12 bottommargin-sm">
                                             <label>Informasi Data Pribadi</label>
@@ -66,8 +66,12 @@
                                                 placeholder="Nama Lengkap" required>
                                             <input type="email" name="email" value="" class="sm-form-control my-2"
                                                 placeholder="Email" required>
-                                            <input type="tel" name="nohp" value="" class="sm-form-control my-2"
-                                                placeholder="Nomor HP" required>
+                                            <input type="tel" id="nohp" name="nohp" value=""
+                                                class="sm-form-control my-2" placeholder="Nomor HP" required
+                                                pattern=".{12,}" maxlength="15"
+                                                oninvalid="setCustomValidity('Minimal panjang nomor telepon adalah 12 abjad/angka. ')"
+                                                onchange="try{setCustomValidity('')}catch(e){}">
+                                            <small class="text-muted">Format: 081234567890</small>
                                         </div>
                                         <div class="input-daterange travel-date-group col-md-9 bottommargin-sm">
                                             <div class="row">

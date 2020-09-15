@@ -13,6 +13,7 @@ use App\email;
 use App\gallerydb;
 use App\itemproduk;
 use App\kategori;
+use App\order;
 use App\partner;
 use App\productsdb;
 use App\video;
@@ -108,32 +109,15 @@ class DashboardController extends Controller
             ->get();
         return view('dashboard.order.show', ['order' => $order]);
     }
-    public function prosesaddblog(Request $request)
+    public function trashorder($id, Request $request)
     {
-        $blog = new blogdb();
-        $blog->judul = $request->judul;
-        $blog->kategori_produk = $request->kategori_produk;
-        $blog->isi = $request->isi;
-        if (!$request->hasFile('coverimg')) {
-            $blog->save();
-        } else {
-            $lamp = $request->file('coverimg');
-            $filename = time() . '.' . $lamp->getClientOriginalExtension();
-            $request->file('coverimg')->move('media/blog/', $filename);
-            $blog->coverimg = $filename;
-            $blog->save();
-        }
-        return back()->with('selamat', 'Projek blog kamu sudah berhasil kamu tambahkan');
-    }
-    public function trashblog($id, Request $request)
-    {
-        $blog = blogdb::find($id);
+        $order = order::find($id);
         // dd($user);
-        if ($blog) {
-            if ($blog->delete()) {
-                DB::statement('ALTER TABLE blogdbs AUTO_INCREMENT = ' . (count(blogdb::all()) + 1) . ';');
+        if ($order) {
+            if ($order->delete()) {
+                DB::statement('ALTER TABLE orders AUTO_INCREMENT = ' . (count(order::all()) + 1) . ';');
 
-                return back()->with('selamat', 'Data Blog berhasil dihapus.');
+                return back()->with('selamat', 'Data order berhasil dihapus.');
             }
         }
     }

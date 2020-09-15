@@ -148,7 +148,7 @@
                 <div class="col-lg-6 text-left">
                     <div class="footer">
                         <?php $y = Date('Y') ?>
-                        <p>©{{$y}} CV. MUSIM PANEN - All rights reserved.</p>
+                        <p>© {{$y}} - PT Belanja Semua Indonesia - All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">

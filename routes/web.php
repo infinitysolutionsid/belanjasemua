@@ -85,7 +85,7 @@ Route::group(['prefix' => 'admin/products', 'middleware' => 'isLogin'], function
 });
 Route::group(['prefix' => 'admin/customerorder', 'middleware' => 'isLogin'], function () {
     Route::post('/addneworder', 'DashboardController@prosesaddorder');
-    Route::get('/trash/{id}', 'DashboardController@trashblog');
+    Route::get('/trash/{id}', 'DashboardController@trashorder');
     Route::post('/update/{id}', 'DashboardController@updateblog');
 });
 Route::group(['prefix' => 'admin/gallery', 'middleware' => 'isLogin'], function () {
