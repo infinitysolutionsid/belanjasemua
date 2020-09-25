@@ -149,7 +149,8 @@
                                                 <div style="   font-family: Helvetica, sans-serif; ">
                                                     <p style="text-align: left;  word-break: break-word;   margin: 0;">
                                                         <span style="">Halo tim Belanjasemua.com!</span></p>
-                                                    <p style="text-align: left;  word-break: break-word;   margin: 0;">ss
+                                                    <p style="text-align: left;  word-break: break-word;   margin: 0;">
+                                                        ss
                                                         <span style="">
                                                             Kamu telah menerima pesanan baru, permintaan order yang
                                                             telah sistem terima: <br><br>

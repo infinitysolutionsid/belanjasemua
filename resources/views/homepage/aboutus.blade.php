@@ -58,7 +58,7 @@ Kami Musim Panen.')
             <div class="row col-mb-50">
                 <div class="col-md-7 text-center text-md-left">
                     <div class="heading-block topmargin-sm">
-                        <h2>pengiriman cepat, aman dan <br>terpercaya dengan partner <br><span>ekspedisi FedEx
+                        <h2>pengiriman cepat, aman dan <br>terpercaya dengan partner <br><span>ekspedisi DHL
                                 International</span>
                         </h2>
                     </div>
