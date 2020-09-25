@@ -73,11 +73,48 @@ musimpanen.co.id.')
                     </div>
                 </div>
                 <div class="col-lg-6 min-vh-50">
-                    <div class="gmap h-100" data-latitude="3.6294025" data-longitude="98.6866543"
-                        data-markers='[{latitude:3.6294025, longitude:98.6866543, html: "<div class=\"p-2\" style=\"width: 300px;\"><h4 class=\"mb-2\">Hi! We are <span>Envato!</span></h4><p class=\"mb-0\" style=\"font-size:1rem;\">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day.</p></div>", icon:{ image: "images/icons/map-icon-red.png", iconsize: [32, 39], iconanchor: [32,39] } }]'>
+                    <div class="alignright gmap" id="google-map2" data-latitude="3.5982323" data-longitude="98.6663704">
                     </div>
                 </div>
             </div>
+            <div class="row col-mb-50">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box fbox-center fbox-bg fbox-plain">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="icon-map-marker2"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                            <h3>Our Office<span class="subtitle"> JL.Dadap No.5-A-3, RT.000/RW.000, Sekip, Kec. Medan
+                                    Petisah, Kota Medan, Sumatera Utara 20113</span></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box fbox-center fbox-bg fbox-plain">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="icon-phone3"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                            <h3>Speak to Us
+
+                                <span class="subtitle">+62 823 7080 9595</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box fbox-center fbox-bg fbox-plain">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="icon-email"></i></a>
+                        </div>
+                        <div class="fbox-content">
+                            <h3>Email us<span class="subtitle">info@belanjasemua.com</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Contact Info End -->
             <div class="row mb-5">
                 <div class="col-sm-12 col-lg-12">
                     <a href="https://wa.me/6282370809595"

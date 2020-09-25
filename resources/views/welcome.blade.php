@@ -189,7 +189,9 @@
                     <div class="row col-mb-30">
                         <?php $y = Date('Y'); ?>
                         <div class="col-md-6 text-center text-md-left">
-                            &copy; {{$y}} PT Belanja Semua Indonesia. All rights reserved.<br>
+                            &copy; {{$y}} CV. Digital Indotama. All rights reserved by <a
+                                href="https://workwith.bintangtobing.com"
+                                style="color:rgba(255,255,255,0.4);">bintangtobing.com</a>.<br>
                         </div>
 
                         <div class="col-md-6 text-center text-md-right">
@@ -220,7 +222,7 @@
     <script src="{!!asset('homepage/js/functions.js')!!}">
     </script>
 
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBPHBkHbxlsp255-WwFSBcj4Eq3WUovF00"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyALboiQYa5WEjbINupUsZ1r0C1u7llRyS8"></script>
 
     {{-- JS Untuk harga --}}
     <script type="text/javascript">
