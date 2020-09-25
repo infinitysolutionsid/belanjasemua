@@ -93,7 +93,7 @@
                                     <th>#</th>
                                     <th style="width: 200px;">Preview</th>
                                     <th>Judul Foto</th>
-                                    <th>Kategori</th>
+
                                     <th>Act.</th>
                                 </tr>
                             </thead>
@@ -108,8 +108,7 @@
                                     <td>
                                         {{$gal->judul_foto}}
                                     </td>
-                                    <td>{!!$gal->product_name!!}
-                                    </td>
+
                                     <td>
                                         <a href="" data-toggle="modal" data-target="#viewphotos{{$gal->id}}"
                                             class="btn btn-secondary btn-rounded">
