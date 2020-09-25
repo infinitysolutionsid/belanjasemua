@@ -58,7 +58,7 @@
     <meta property="og:title" content="@yield('title')" />
     <meta property="og:description" content="@yield('deschomepage')" />
     <meta property="og:image"
-        content="{!!url('https://res.cloudinary.com/sarjanamalam/image/upload/v1596438013/fbimg_vsmk7u.jpg')!!}')!!}">
+        content="{!!url('https://res.cloudinary.com/bintangtobing-com/image/upload/v1601015379/webpublic/online.jpg')!!}')!!}">
 
     <!--GTAG JS-->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -251,7 +251,7 @@
 
     </script>
     <script type="text/javascript">
-        
+
     </script>
 </body>
 
